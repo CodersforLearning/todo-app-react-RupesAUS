@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.todo-form {
+  text-align: center;
+}
+
+.todo-app {
+  background-color: grey;
+  text-align: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.todo-row .complete {
+  background-color: skyblue;
+  text-align: center;
+}
+
+.todo-row {
+  background-color: cyan;
+  margin-top: 12px;
+  text-align: center;
+}
+
+.todo-sheet {
+  background-color: whitesmoke;
+  min-height: 80vh;
+  padding-bottom: 50px;
+}
